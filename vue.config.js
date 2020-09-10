@@ -8,6 +8,18 @@ function resolve(dir) {
 module.exports = {
   assetsDir: 'static',
   productionSourceMap: false,
+  css: {
+    loaderOptions: {
+      postcss: {
+        plugins: [
+          require('postcss-pxtorem')({
+            rootValue: 32,
+            propList: ['*'],
+          }),
+        ],
+      },
+    },
+  },
   chainWebpack: config => {
     config.resolve.alias.set('@', resolve('./src'))
 
