@@ -1,24 +1,11 @@
 # vue_lint_all_template
 
-## Project setup
-```
-npm install
-```
+vue 工程模板
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+js lint： eslint + prittier
 
-### Compiles and minifies for production
-```
-npm run build
-```
+style： stylelint
 
-### Lints and fixes files
-```
-npm run lint
-```
+commit lint
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+........
