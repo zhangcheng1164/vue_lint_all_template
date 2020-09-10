@@ -1,7 +1,24 @@
 # vue_lint_all_template
-基于vue cli创建基础项目 增加stylelint 和commit 规范
 
-js 规范： eslint + prittier
-样式规范： stylelint
+## Project setup
+```
+npm install
+```
 
-在git hooks中增加代码检查和commit规范
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
